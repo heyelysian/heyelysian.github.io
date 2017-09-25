@@ -32,7 +32,7 @@ box-shadow: 5px 5px 5px #aaa;
 /*11. increase the font size to: 4rem*/
 .my-highlight{
 	
-color: orangered;
+color: #ff8b8b;
 text-decoration: overline;
 font-size: 4rem;
 
@@ -44,7 +44,7 @@ font-size: 4rem;
 .my-hr{
 	
 width: 20%;
-border: 10px solid orangered;
+border: 10px solid #ff8b8b;
 margin-left: 0;
 	
 }
