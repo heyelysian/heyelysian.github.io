@@ -15,8 +15,12 @@
 /*8. create a shadow: 5px 5px 5px #aaa*/
 .my-container{
 
-
-
+border: 1px solid #aaa;
+background-color: white;
+max-width: 600px;
+margin: 10px auto;
+padding: 1rem;
+box-shadow: 5px 5px 5px #aaa;
 
 
 
@@ -27,7 +31,9 @@
 /*11. increase the font size to: 4rem*/
 .my-highlight{
 	
-
+color: orangered;
+text-decoration: overline;
+font-size: 4rem;
 
 }
 
@@ -36,6 +42,8 @@
 /*14. shift to the left using margin-left*/
 .my-hr{
 	
-
+width: 20%;
+border: 10px solid orangered;
+margin-left: 0;
 	
 }
