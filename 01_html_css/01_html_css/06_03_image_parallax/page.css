@@ -18,9 +18,23 @@
 /*6. make a parallax effect by fixing the background-attachment*/
 .my-parallax{
 	
-
-
-
+height: 80vh;
+background-image: url('galexy_background.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+background-attachment: fixed;
 
 	
+}
+
+.my-parallex-2{
+	
+height: 50vh;
+background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0e/85/48/e6/seven-mile-beach-grand.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: fixed;
+background-attachment: fixed;
+
 }
