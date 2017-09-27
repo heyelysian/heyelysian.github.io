@@ -1,0 +1,15 @@
+.class_a {
+    color:red;
+    height:50vh;
+    width:50vw;
+    background-color:#1b1b1b;
+    margin-left:auto;
+}
+
+.class_b{
+    color: black
+}
+
+,.class_a .class_b .class_c{
+    color: yellow
+}
