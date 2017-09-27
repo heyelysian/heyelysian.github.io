@@ -14,3 +14,17 @@
 .class_a .class_b .class_c {
     color: yellow
 }
+
+
+.image-background{
+    background-color: pink;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+    background-image: url('http://stackup.sg/assets/stackup_logo.svg');
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*background-size: contain;*/
+    background-size: 50%;
+    background-position: bottom right;
+}
