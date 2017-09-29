@@ -2,6 +2,17 @@
 <html>
 <head>
 	<title>Forms</title>
+
+<style>
+	.focus_red:focus {
+		color:red;
+	}
+
+
+
+</style>
+
+
 </head>
 <body>
 
@@ -27,10 +38,10 @@
 	<label for="name_txt">
 		Name
 	</label>
-<input type="text" id="name_txt" required name="my_name" required placeholder="Please input your username">
+<input class="focus_red" type="text" id="name_txt" required name="my_name" required placeholder="Please input your username">
 </div>
 
-
+<!-- purpose of ID tag - autofocus the input element to the input section. if you dont state label, dont need id -->
 <div>
 	<label for="email_txt">
 		Email		
