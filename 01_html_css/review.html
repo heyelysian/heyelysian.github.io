@@ -8,12 +8,37 @@
     <link rel="stylesheet" type="text/css" href="page.css">
     <title>Document</title>
 
+    <style>
+    .img-profile{
+        background-image: url("http://stackup.sg/assets/stackup_logo.svg");
+        width: 100px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    img{
+        border-radius: 50%;
+        width: 100px;
+        background-color: black;
+    }
+    </style>
+
 </head>
 <body>
 
     <!--<a href="review2.html" target="_blank">
         this is review 2.html
     </a>-->
+</div>
+
+       <div class="img profile">
+
+        <!-- THIS IS IMAGE PROFILE -->
+
+        
 
     <a href="review2.html" target="_self">
             this is review 2.html
@@ -45,7 +70,34 @@
             </p><div>
             
 </p>
-       </div>
+
+
+<!-- form allows to submit form to Server & Database. Action is "Serve location" e.g. www.abc.com/save -->
+<!-- When you create a form - you can choose GET or POST method - e.g. name and email database - GET allows for data to be exposed to URL. POST does not expose data -->
+
+<!-- GET method 
+
+<form action="http://www.test-1234.com" method="GET">
+
+    <input type="text" name="name" placeholder="my name">
+    <input type="text" name="email" placeholder="my email">
+    <input type="submit" value="SUBMIT">
+
+</form>
+
+-->
+
+<!-- POST method -->
+<form action="http://www.test-1234.com" method="POST">
+    
+        <input type="text" name="name" required placeholder="Input Your Name Here">
+        <input type="email" name="email" placeholder="my email">
+        <input type="password" name="passwordText" placeholder="input password">        
+        <input type="search" name="searchText" placeholder="search..">        
+        <input type="submit" value="SUBMIT">
+<!-- name attribute not necessary - name is required to be defined when sending data back to Server - name "" cannot have spacing. do NOT have DUPLICATE names -->
+<!-- required placeholder = mandatory field -->
+    </form>
 
         </body>
-    </head>
+        </html>
