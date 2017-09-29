@@ -24,10 +24,48 @@
         width: 100px;
         background-color: black;
     }
-    </style>
+
+    .container{
+        display: flex;
+        
+        background-color: grey;
+        padding:10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start
+        width:100%;
+    }
+
+
+    .child{
+        background-color: red;
+        padding: 10px;
+        flex-grow:1;
+        flex-basis: 100px;
+    }
+
+    .child-big{
+        flex-grow: 2;
+        flex-basis: 300px;
+        background-color: yellow;
+    }
+</style>
+
 
 </head>
 <body>
+
+<div class="container">
+<div class="child">
+    this is child
+</div>
+        <div class="child">
+            div 1
+        </div>
+        <div class="child child-big">
+            div 2
+        </div>
+                        
 
     <!--<a href="review2.html" target="_blank">
         this is review 2.html
@@ -75,7 +113,7 @@
 <!-- form allows to submit form to Server & Database. Action is "Serve location" e.g. www.abc.com/save -->
 <!-- When you create a form - you can choose GET or POST method - e.g. name and email database - GET allows for data to be exposed to URL. POST does not expose data -->
 
-<!-- GET method 
+<!-- GET method has limited input
 
 <form action="http://www.test-1234.com" method="GET">
 
@@ -87,6 +125,7 @@
 
 -->
 
+<!-- LONG text use POST methos - unlimited input -->
 <!-- POST method -->
 <form action="http://www.test-1234.com" method="POST">
     
