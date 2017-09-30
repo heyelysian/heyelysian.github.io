@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+
+
+.img-profile{
+    margin: 10px;
+    border-style: solid;
+    border-color:white;
+    background-image: url("profile.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.my-name{
+    font-size: 16px;
+    font-weight: 400px;
+
+}
+
+.table{
+
+
+}
+
+.top-right{
+margin-right:500px; 
+border-left-color: grey;
+
+
+}
+
+.bottom-right{
+
+
+}
+
+
+.container{
+    background-color: pink;
+    display: flex;
+    padding:10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width:60%;
+
+}
+
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 200px; 

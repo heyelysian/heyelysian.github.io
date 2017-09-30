@@ -1,0 +1,52 @@
+*{
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* webkit - for Safari & Chrome, moz - for mozilla = box sizing will auto resize the boxes to be the same width and size even if the px does not measure to be the same. */
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    background-color: #EBA6C1;
+    padding: 5px;
+
+}
+
+.child1{
+    /* flex basis is the width size */
+    flex-basis: 100px;
+    flex-grow: 1;
+    /* default=0. flex grow=1. If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children. If one of the children has a value of 2, the remaining space would take up twice as much space as the others (or it will try to, at least). */
+    text-align: center;
+    /* text align the items to center of div */
+}
+
+.child2{
+    flex-basis: 400px;
+    flex-grow: 2;
+    padding: 5px;
+    border-left: 1px solid black;
+}
+
+.img{
+    width: 100px;
+    border-radius: 50%;
+    border-style color;
+    margin: auto; 
+    /* margin auto = auto aligned in middle of the div */
+
+}
+
+.my-form{
+    width: 150px;
+    margin: auto;
+}
+
+input, textarea{
+    width: 100%;
+}
+/* to have the input and text area box same size */
