@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body{
+    font-family: 'Questrial', serif;
+}
+
+
 .back-yellow{
     background-color: yellow;
 }
@@ -11,11 +18,20 @@
 
 }
 
-/* max-width: */
+.has-bottom{
+    margin-bottom: 10px;
+}
+
+.my-thumb{
+    width: 100%;
+}
+
+*{
+
+}
 
 @media (max-width:500px) {
     .change_font_size{
         font-size: 8px;
     }
-    /* means styles under @media will only apply if min width is 500px, if max width=500px, means style will only apply if width is < or = to 500px */
 }

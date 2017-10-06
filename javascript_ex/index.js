@@ -24,16 +24,25 @@
 // single = is assignment. age = 30. double == is equality.
 
 var buffetprice = function(age) {
-    var price = 0;
+    // var price = 0;
 
-    if (age < 10) {
-        price = 20;
+    if (age <=0)
+    // return(NaN); or
+    return (-1);
+
+    else if (age < 10) {
+        return (20);
+        //price = 20;
     } else if ((age >= 10) && (age <21)){
-        price = 30;
-    } else 
-        price = 40;
+        return (30);
+        //price = 30;
+    }
 
-    return (price);
+    //age >= 21
+        return (40);
+        //price = 40;
+
+    //return (price);
 }
 
 console.log("age = 9: $" + buffetprice(9));
