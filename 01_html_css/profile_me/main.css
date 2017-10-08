@@ -1,0 +1,93 @@
+* {
+    /* Auto Calculate the Box Size */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+element.style {
+    font-family: 'Adobe Garamond Pro';
+    font-size: 18px;
+    font-weight: regular;
+    color: black;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+
+input, textarea {
+    -webkit-appearance: none;
+    width:100%;
+    border:none;
+    border-bottom:1px solid #C4C1C1;
+    font-size:14px;
+    margin:2px 0px;
+    padding:5px;
+}
+
+.footer-socialmedia {
+    text-align: center;
+    padding: 30px 0 15px 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.grey-bg{
+    background-color: rgba(240, 238, 238, 0.66);    
+    padding: 1rem;
+    text-align: center;
+}
+
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+  }
+  .carousel-fade .carousel-inner .item,
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+  }
+  .carousel-fade .carousel-inner .active,
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+  }
+  .carousel-fade .carousel-inner .next,
+  .carousel-fade .carousel-inner .prev,
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-control {
+    z-index: 2;
+  }
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-basic{
+    background-color: rgba(240, 238, 238, 0.66);
+}
+
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+div {
+    display: block;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
